@@ -1,0 +1,14 @@
+.icon {
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+    transition: transform 0.3s ease
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.icon:hover {
+    transform: translateY(2px);
+}
