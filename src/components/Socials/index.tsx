@@ -1,7 +1,7 @@
 import styles from "./Socials.style.module.css"
 
 export default function SocialLinks() {
-  return <div className={styles.container}>
+  return <nav className={styles.container}>
     <a href="https://github.com/sahar511" >
       <i className={`fa-brands fa-github ${styles.icon}`}></i>
     </a>
@@ -14,5 +14,5 @@ export default function SocialLinks() {
     <a href="https://twitter.com/sas511_s" >
       <i className={`fa-brands fa-x-twitter ${styles.icon}`}></i>
     </a>
-  </div>
+  </nav>
 }
