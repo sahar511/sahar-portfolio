@@ -14,6 +14,10 @@ p {
   padding: 70px 0;
 }
 
+.box * {
+  font-weight: normal;
+}
+
 .title {
   font-size: 6rem;
   color: rgb(0, 0, 0);
@@ -22,6 +26,7 @@ p {
 
 .subtitle {
   font-size: 4rem;
+  margin: 0;
 }
 
 .nav {
