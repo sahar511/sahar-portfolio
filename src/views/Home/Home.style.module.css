@@ -45,13 +45,13 @@ p {
 
 @media screen and (max-width: 520px) {
   .title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .subtitle {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .box {
-    padding: 40px 0;
+    padding: 36px 0;
   }
 }
