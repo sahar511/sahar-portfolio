@@ -1,13 +1,33 @@
+:root {
+  --background-color:  #f3f1eb;
+  --text-color: #111414;
+}
+
+body.dark {
+  --background-color: #111414;
+  --text-color:  #f3f1eb;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;
-  background-color: #f3f1eb;
+  background-color: var(--background-color);
   box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.app {
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100%;
 }
 
 code {
